@@ -1,0 +1,94 @@
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe.config
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe.config
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.pdb
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\MainWindow.baml
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\MainWindow.g.cs
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\NewMainWindow.g.cs
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\App.g.cs
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_Content.g.cs
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_MarkupCompile.cache
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_MarkupCompile.lref
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\NewMainWindow.baml
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.g.resources
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.Properties.Resources.resources
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.csproj.GenerateResource.Cache
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.exe
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.pdb
+C:\Users\Hamilton\Desktop\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconUnityWrapper.dll
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe.config
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.exe
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.pdb
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconUnityWrapper.dll
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.pdb
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.csprojResolveAssemblyReference.cache
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\MainWindow.baml
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\MainWindow.g.cs
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\NewMainWindow.g.cs
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\App.g.cs
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_Content.g.cs
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_MarkupCompile.cache
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_MarkupCompile.lref
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\NewMainWindow.baml
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.g.resources
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.Properties.Resources.resources
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.csproj.GenerateResource.Cache
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconUnityWrapper.dll
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe.config
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.pdb
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\MainWindow.baml
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\MainWindow.g.cs
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\NewMainWindow.g.cs
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\App.g.cs
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_Content.g.cs
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_MarkupCompile.cache
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_MarkupCompile.lref
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\NewMainWindow.baml
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.g.resources
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.Properties.Resources.resources
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.csproj.GenerateResource.Cache
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.exe
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.pdb
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe.config
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.exe
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.pdb
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\bin\Release\FalconUnityWrapper.dll
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.pdb
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\MainWindow.baml
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\MainWindow.g.cs
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\NewMainWindow.g.cs
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\App.g.cs
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_Content.g.cs
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_MarkupCompile.cache
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_MarkupCompile.lref
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\NewMainWindow.baml
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.g.resources
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.Properties.Resources.resources
+C:\Users\Hamilton\BitTorrent Sync\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.csproj.GenerateResource.Cache
+C:\Users\Hamilan\Documents\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe.config
+C:\Users\Hamilan\Documents\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.exe
+C:\Users\Hamilan\Documents\BTSync\Falcon\src\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.pdb
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe.config
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.exe
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.pdb
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\bin\Release\FalconUnityWrapper.dll
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.pdb
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.csprojResolveAssemblyReference.cache
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\NewMainWindow2.g.cs
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\App.g.cs
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_Content.g.cs
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_MarkupCompile.cache
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_MarkupCompile.lref
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\NewMainWindow2.baml
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.g.resources
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.Properties.Resources.resources
+C:\Users\Hamilan\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager2\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.csproj.GenerateResource.Cache

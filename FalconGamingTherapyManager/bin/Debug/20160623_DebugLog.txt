@@ -1,0 +1,35 @@
+2016/06/23 14:59:55:884 - Could not open device
+2016/06/23 15:02:04:535 - Device uninitialized
+2016/06/23 15:02:04:535 - Device uninitialized
+2016/06/23 15:03:57:076 - Could not open device
+2016/06/23 15:06:49:114 - Device uninitialized
+2016/06/23 15:06:49:114 - Device uninitialized
+2016/06/23 15:09:26:970 - Could not open device
+2016/06/23 16:14:51:985 - Could not open device
+2016/06/23 16:15:38:514 - Device uninitialized
+2016/06/23 16:15:38:514 - Device uninitialized
+2016/06/23 16:16:13:243 - Could not open device
+2016/06/23 16:16:44:937 - Device uninitialized
+2016/06/23 16:16:44:937 - Device uninitialized
+2016/06/23 16:17:46:952 - Could not open device
+2016/06/23 16:17:50:334 - Device uninitialized
+2016/06/23 16:17:50:334 - Device uninitialized
+2016/06/23 16:17:57:708 - Could not open device
+2016/06/23 16:20:31:316 - Could not open device
+2016/06/23 16:21:18:970 - Device uninitialized
+2016/06/23 16:21:18:970 - Device uninitialized
+2016/06/23 16:22:02:140 - Could not open device
+2016/06/23 16:22:18:291 - Device uninitialized
+2016/06/23 16:22:18:291 - Device uninitialized
+2016/06/23 16:24:00:051 - Could not open device
+2016/06/23 16:25:34:192 - Device uninitialized
+2016/06/23 16:25:34:192 - Device uninitialized
+2016/06/23 17:10:23:287 - Could not open device
+2016/06/23 17:14:06:422 - Device uninitialized
+2016/06/23 17:14:06:422 - Device uninitialized
+2016/06/23 17:17:34:700 - Could not open device
+2016/06/23 17:20:10:404 - Device uninitialized
+2016/06/23 17:20:10:404 - Device uninitialized
+2016/06/23 17:22:46:411 - Could not open device
+2016/06/23 17:24:47:739 - Device uninitialized
+2016/06/23 17:24:47:739 - Device uninitialized

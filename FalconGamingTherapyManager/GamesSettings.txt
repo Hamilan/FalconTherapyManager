@@ -1,0 +1,107 @@
+﻿Game	Crazy Rider
+Type	Wrist
+Icon	Crazy Rider.png
+Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Args	--app=c:/CrazyRider/CrazyRider.html
+MainActionKey	Up
+SecondActionKey	Space
+Active on session	1
+
+Game	Lil Mads and the Gold Skull
+Type	Wrist
+Icon	Lil Mads and the Gold Skull.png
+Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Args	--app-id=eegcfpajlmpiddaokbgfekondbehaalm
+MainActionKey	Up
+SecondActionKey	
+Active on session	1
+
+Game	Botley's Bootles Coins
+Type	Wrist
+Icon	Botley's Bootles Coins.png
+Path	C:\Falcon BootleCasher\BootleCasher.exe
+Args	
+MainActionKey	Up
+SecondActionKey	
+Active on session	1
+
+Game	Swooop
+Type	Wrist
+Icon	Swooop.png
+Path	C:\Program Files (x86)\BlueStacks\HD-RunApp.exe
+Args	--app-id=jblimahfbhdcengjfbdpdngcfcghladf
+MainActionKey	Up
+SecondActionKey	
+Active on session	3
+
+Game	Skater Boy
+Type	Wrist
+Icon	Skater Boy.png
+Path	C:\Program Files (x86)\BlueStacks\HD-RunApp.exe
+Args	-p com.game.SkaterBoy -a com.game.SkaterBoy.main
+MainActionKey	Up
+SecondActionKey	Space
+Active on session	4
+
+Game	BMX Boy
+Type	Wrist
+Icon	BMX Boy.png
+Path	C:\Program Files (x86)\BlueStacks\HD-RunApp.exe
+Args	-p com.game.BMX_Boy -a com.game.BMX_Boy.main
+MainActionKey	Up
+SecondActionKey	Space
+Active on session	5
+
+Game	Funky Karts
+Type	Wrist
+Icon	Funky Karts.png
+Path	C:\Program Files (x86)\BlueStacks\HD-RunApp.exe
+Args	-p com.willowbrite.funkykarts -a com.willowbrite.funkykarts.FunkyKartsActivity
+MainActionKey	Up
+SecondActionKey	Down
+Active on session	6
+
+Game	Heroes of the Loot
+Type	Move
+Icon	Heroes of the Loot.png
+Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Args	--app-id=dglbaehdkhggfndjofleapioemjkkbng
+MainActionKey	Up, Down, Left, Right
+SecondActionKey	Space
+Active on session	1
+
+Game	Save the Day
+Type	Move
+Icon	Save the Day.png
+Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Args	--app-id=enmmbcfhecnpnnifkdkocjabgkjpcicl
+MainActionKey	Up, Down, Left, Right
+SecondActionKey	Space
+Active on session	1
+
+Game	Bird Brawl
+Type	Move
+Icon	Bird Brawl.png
+Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Args	--app-id=kmfmnamhddafiplkkobdinpjcnidlplk
+MainActionKey	Up, Down, Left, Right
+SecondActionKey	Space
+Active on session	3
+
+Game	Pacman
+Type	Move
+Icon	Pacman.png
+Path	C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Args	--app-id=ielohiojckmcdefafhjhngbflglmilip
+MainActionKey	Up, Down, Left, Right
+SecondActionKey	
+Active on session	4
+
+Game	Looney Tunes Dash
+Type	Move
+Icon	Looney Tunes Dash.png
+Path	C:\Program Files (x86)\BlueStacks\HD-RunApp.exe
+Args	-p com.zynga.looney -a com.zynga.looney.SplashScreenActivity
+MainActionKey	Up, Down, Left, Right
+SecondActionKey	
+Active on session	5

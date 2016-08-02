@@ -1,0 +1,16 @@
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe.config
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.csproj.ResolveComReference.cache
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.exe
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.pdb
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconUnityWrapper.dll
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.exe
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\bin\Release\FalconGamingTherapyManager.pdb
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\MainWindow.g.cs
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\App.g.cs
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_Content.g.cs
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_MarkupCompile.cache
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager_MarkupCompile.lref
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\MainWindow.baml
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.g.resources
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.Properties.Resources.resources
+C:\Users\Hamilton\Dropbox\BRI\PEARL\Projects\Falcon\Code\FalconGamingTherapyManager\FalconGamingTherapyManager\obj\Release\FalconGamingTherapyManager.csproj.GenerateResource.Cache

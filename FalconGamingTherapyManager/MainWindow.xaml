@@ -1,0 +1,249 @@
+﻿<Window x:Class="FalconGamingTherapyManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FalconGamingTherapyManager"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="Falcon Gaming-Therapy Manager"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing"
+        Background="#FFEAEAEA" 
+        PreviewKeyDown="Window_PreviewKeyDown"
+        Width="1000"
+        Height="680"
+        Activated="Window_Activated"
+        Deactivated="Window_Deactivated"
+        ResizeMode="CanMinimize">
+    <StackPanel Orientation="Vertical">
+        <GroupBox x:Name="MainGroupBox" Header="Patient's Profile" Background="White" Margin="10,5" >
+            <WrapPanel VerticalAlignment="Center">
+                <Image x:Name="profile" Height="25" Source="Images/profile.jpg"/>
+                <WrapPanel Margin="5,5,0,0" VerticalAlignment="Center">
+                    <Label x:Name="UserLabel" Content="User:" Width="55" Height="25"/>
+                    <Label x:Name="usernameTextBlock" Height="25" Content=" -- "  Width="100"/>
+                    <Label x:Name="SessionLabel" Content="Session #:" Width="65" />
+                    <Label x:Name="sessionTextBlock" Height="25" Content=" -- "  Width="100"/>
+                    <Button x:Name="openProfileButton" Content="Open a profile" Width="85" Height="30" Click="openProfileButton_Click" Margin="420,0,0,0" Background="#FFFFF3C0"/>
+                    <Button x:Name="saveProfileButton" Content="Create profile" Width="85" Height="30" Click="createProfileButton_Click" Margin="10,0,0,0"/>
+                </WrapPanel>
+            </WrapPanel>
+        </GroupBox>
+        <TabControl x:Name="tabControl" SelectionChanged="tabControl_SelectionChanged" Height="580">
+            <TabItem x:Name="UserTab" Header="Start" HorizontalAlignment="Center" Width="100">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20,40">
+                    <Label Content="1" FontSize="40"/>
+                    <Label Width="150" Margin="0,10,0,0">
+                        <AccessText TextWrapping="Wrap" Text="Open or create a profile using the buttons on top of this window."/>
+                    </Label>
+                    <Image x:Name="profileOpenImage" Source="Images/exclamation.png" Width="20"/>
+                    <Label Content="2" FontSize="40" Margin="100,0,0,0"/>
+                    <Label Width="150"  Margin="0,10,0,0">
+                        <AccessText TextWrapping="Wrap" Text="Use the tabs above to access the therapy activities desired"/>
+                    </Label>
+                    <Image x:Name="step2Image" Source="Images/null.png" Width="20"/>
+                    <Label Content="3" FontSize="40" Margin="100,0,0,0"/>
+                    <Label Width="150" Margin="0,10,0,0">
+                        <AccessText TextWrapping="Wrap" Text="When you are done with a patient/client's session, just close the program."/>
+                    </Label>
+                </StackPanel>
+            </TabItem>
+            <TabItem x:Name="WristTab" Header="Wrist Activities" IsEnabled="false" Width="150">
+                <StackPanel Orientation="Horizontal">
+                    <GroupBox x:Name="wristSettingsGroupBox" Header="Wrist Extension Settings" VerticalAlignment="Top" Width="420"  Background="#FFF0F0F0">
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                            <StackPanel Orientation="Horizontal">
+                                <Label x:Name="weightLabel" Width="110" Content="Falcon's weight:"/>
+                            </StackPanel>
+                            <WrapPanel Orientation="Horizontal" Width="150">
+                                <TextBox x:Name="liftWeightTextBox" Width="40" Height="20" Text="500" TextAlignment="Right" ToolTip="Enter a number between 0 and 1000 grams" KeyDown="liftWeightTextBox_KeyDown"/>
+                                <Label x:Name="gramsLabel" Width="50" Content="grams"/>
+                                <Button x:Name="updateWeightButton" Content="Update" Width="60" Height="30" Click="updateWeightButton_Click"/>
+                            </WrapPanel>
+                            <WrapPanel Orientation="Horizontal">
+                                <Label x:Name="label0grams" Width="30" Content="0 g" Margin="20,0,0,0"/>
+                                <Slider x:Name="liftingWeightSlider" Width="300" ValueChanged="slider_ValueChanged" Maximum="1000" Height="25" Value="500" LargeChange="100" SmallChange="10" IsTabStop="False" />
+                                <Label x:Name="label000grams" Width="50" Content="1,000 g"/>
+                                <Button x:Name="easyWeightButton" Content="Easy" Width="60" Height="30" Click="easyWeightButton_Click" Margin="80,0,0,0"/>
+                                <Button x:Name="mediumWeightButton" Content="Medium" Width="60" Margin="30,0,30,0" Click="mediumWeightButton_Click"/>
+                                <Button x:Name="hardWeightButton" Content="Hard" Width="60" Click="hardWeightButton_Click" Margin="5,0,0,0"/>
+                            </WrapPanel>
+                            <Separator Width="370" Height="50"/>
+                            <WrapPanel>
+                                <Label x:Name="labelThreshold" Content="Maximum wrist extension:" Width="210" Height="30" VerticalAlignment="Center"/>
+                                <Button x:Name="setWristRangeButton" Content="Start measure" Width="85" Height="30" Margin="20,0,0,0" Click="setWristRangeButton_Click" Background="#FFFFF3C0"/>
+                                <Image x:Name="wristRangeReadyImage" Source="Images/exclamation.png" Width="20" Margin="20,0,0,0"/>
+                            </WrapPanel>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Image x:Name="wristRangeImage" Source="Images/FalconUpDown.png" Height="100"/>
+                                <TextBlock x:Name="liftThresholdTextBox" Text="0" Width="50" VerticalAlignment="Center" TextAlignment="Right"/>
+                            </StackPanel>
+                            <Separator Width="370" Height="50"/>
+                            <StackPanel Orientation="Vertical">
+                                <WrapPanel>
+                                    <Label x:Name="labelTolerance" Content="Percentage of maximum extension required to play:"/>
+                                </WrapPanel>
+                                <WrapPanel Orientation="Horizontal" Width="100">
+                                    <TextBox x:Name="liftRequiredTextBox" Width="30" Height="20" Text="75" KeyDown="liftRequiredTextBlock_KeyDown" TextAlignment="Right"/>
+                                    <Label x:Name="percentageLabel" Width="20" Content="%"/>
+                                    <Button x:Name="updatePercentageButton" Content="Update" Width="50" Height="30" Click="updateLiftRequiredButton_Click"/>
+                                </WrapPanel>
+                                <WrapPanel Orientation="Horizontal" Width="380">
+                                    <Label x:Name="minWristLabel" Content="50%" Width="40"/>
+                                    <Slider x:Name="liftRequiredSlider" Width="300" ValueChanged="slider_ValueChanged" Maximum="100" Minimum="50" Height="20" Value="75" LargeChange="10" SmallChange="1" IsTabStop="False" />
+                                    <Label x:Name="maxWristLabel" Content="100%" Width="40"/>
+                                </WrapPanel>
+                            </StackPanel>
+                            <Separator Width="370" Height="50"/>
+                            <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+                                <Button x:Name="SaveWristSettingsButton" Content="Save changes" Width="100" Height="40" Click="createProfileButton_Click" Margin="30,0,0,0"/>
+                                <Image x:Name="saveWristSettingsImage" Source="Images/null.png" Width="25" Margin="10,0"/>
+                            </WrapPanel>
+                        </StackPanel>
+                    </GroupBox>
+                    <GroupBox x:Name="wristGamesGroupBox" Header="Wrist extension activities" HorizontalAlignment="Center" Background="White" IsEnabled="False" Margin="10,0,0,0" >
+                        <WrapPanel Orientation="Horizontal" Width="530" Margin="0,10,0,0">
+                            <GroupBox x:Name="wristGamesDetailGroupBox" Header="How to play" HorizontalAlignment="Center" >
+                                <WrapPanel Margin="0,20,0,0" Orientation="Vertical" HorizontalAlignment="Center">
+                                    <Image x:Name="falconUsageImage2" Source="Images/WristGamesDetail.JPG" Width="240"/>
+                                    <Label x:Name="liftingGamesDescriptionLabel" Width="240" Height="100">
+                                        <AccessText x:Name="wristGamesInstructions" TextWrapping="Wrap" Text="For all these games, move the Falcon's handle up to jump or lift the game character and down to get ready for another jump or lift."/>
+                                    </Label>
+                                </WrapPanel>
+                            </GroupBox>
+                            <WrapPanel Margin="10,0,0,0" Orientation="Vertical" Width="260" >
+                                <!--GroupBox x:Name="testGroupBox" Header="Games" HorizontalAlignment="Center">
+                            <WrapPanel  Margin="0,10,0,0">
+                            </WrapPanel-->
+                                <GroupBox x:Name="wristGamesGroupBoxList" Header="Games" HorizontalAlignment="Center">
+                                    <WrapPanel  Margin="0,10,0,0">
+                                        <Image x:Name="imageCrazyRider" Height="44" Source="Images/Crazy Rider.jpg"/>
+                                        <Button x:Name="buttonCrazyRider" Content="Crazy Rider" Width="170" Height="40" VerticalContentAlignment="Center" Click="desktopGame_Click" ToolTipService.ShowDuration="60000" ToolTip = "Goal: &#x0a; to reach the end of the level avoiding obstacles (trees, rocks, birds) and cliffs. &#x0a;To play: &#x0a; Press and hold the red button to accelerate, and move the Falcon's handle up and down to jump. &#x0a; &#x0a;Cilck here to launch (or stop) the game." />
+                                        <Image Height="44"  Width="30" Source="Images/Button.png" ToolTip="This game uses the red button"/>
+                                        <Image x:Name="imageLilMads" Height="44" Source="Images/Lil Mads and the Gold Skull.jpg"/>
+                                        <Button x:Name="buttonLilMads" Content="Lil Mads and the Gold Skull" Width="170" Height="40" VerticalContentAlignment="Center" Click="desktopGame_Click" ToolTipService.ShowDuration="60000" ToolTip = "Goal: &#x0a; to reach the end of the level avoiding obstacles (boxes) and cliffs. &#x0a;To play: &#x0a; Move the Falcon's handle up and down to jump.&#x0a; &#x0a;Click to launch the game"/>
+                                        <Image x:Name="imageCoinCollector" Height="44" Source="Images/Botley's Bootles Coins.jpg"/>
+                                        <Button x:Name="buttonBootleCasher" Content="Botley's Bootles Coins" Width="170" Height="40" VerticalContentAlignment="Center" Click="buttonCustomGame_Click" ToolTipService.ShowDuration="60000" ToolTip = "Goal: &#x0a; collect as many coins and bootles (bot pets) as possible avoiding the bombs. &#x0a;To play: &#x0a; Hold the Falcon's handle up to lift your bot and collect coins or bootles and move the handle down to avoid bombs.&#x0a;&#x0a;Click to launch the game"/>
+                                        <Image x:Name="imageF1" Height="44" Source="Images/Swooop.png"/>
+                                        <Button x:Name="buttonSwooop" Content="Swooop" Width="170" Height="40" VerticalContentAlignment="Center" Click="desktopGame_Click" ToolTipService.ShowDuration="60000" ToolTip = "Goal: &#x0a; to keep the plane flying for as long as possible. Catch as many diamonds as possible to refill the plane's fuel and avoid obstacles in the air. &#x0a;To play: &#x0a; Move the Falcon's handle up to elevate the plane and move it down to let it fall.&#x0a;&#x0a;Click to launch the game"/>
+                                        <Image x:Name="imageSkaterBoy" Height="44" Source="Images/Skater Boy.jpg"/>
+                                        <Button x:Name="buttonSkaterBoy" Content="Skater Boy" Width="170" Height="40" VerticalContentAlignment="Center" Click="blueStacksGame_Click" ToolTipService.ShowDuration="60000" ToolTip = "Goal: &#x0a; to reach the end of the level avoiding obstacles and collecting as many trophies and coins as possible. &#x0a;To play: &#x0a; Press and hold the red button to accelerate, and move the Falcon's handle up and down to jump.&#x0a;&#x0a;Click to launch the game"/>
+                                        <Image Height="44"  Width="30" Source="Images/Button.png" ToolTip="This game uses the red button"/>
+                                        <Image x:Name="imageBMXBoy" Height="44" Source="Images/BMX Boy.png"/>
+                                        <Button x:Name="buttonBMXBoy" Content="BMX Boy" Width="170" Height="40" VerticalContentAlignment="Center" Click="blueStacksGame_Click" ToolTipService.ShowDuration="60000" ToolTip = "Goal: &#x0a; to reach the end of the level avoiding obstacles and collecting as many trophies and coins as possible. &#x0a;To play: &#x0a; Press and hold the red button to accelerate, and move the Falcon's handle up and down to jump.&#x0a;&#x0a;Click to launch the game"/>
+                                        <Image Height="44"  Width="30" Source="Images/Button.png" ToolTip="This game uses the red button"/>
+                                        <Image x:Name="imageFunkyKarts" Height="44" Source="Images/Funky Karts.jpg"/>
+                                        <Button x:Name="buttonFunkyKarts" Content="Funky Karts" Width="170" Height="40" VerticalContentAlignment="Center" Click="blueStacksGame_Click" ToolTipService.ShowDuration="60000" ToolTip = "Goal: &#x0a; to reach the end of the level collecting as many coins as possible and avoiding falling on spikes and cliffs. &#x0a;To play: &#x0a; The kart always accelerates on its own. It can climb walls and the ceiling when it has momentum.&#x0a; Move the Falcon's handle up and down to jump off the ground, the walls or the ceiling.&#x0a;&#x0a;Click to launch the game"/>
+                                        <Image Height="44"  Width="30" Source="Images/Button.png" ToolTip="This game uses the red button"/>
+                                    </WrapPanel>
+                                </GroupBox>
+                                <GroupBox x:Name="assessmentGroupBox" Header="Assessments" Background="White" Width="220" Margin="0,20,0,0">
+                                    <WrapPanel HorizontalAlignment="Center">
+                                        <Label x:Name="SpeedTestGameLabel" VerticalAlignment="Top" HorizontalAlignment="Left" Background="White">
+                                            <AccessText TextWrapping="Wrap" Text="Wrist speed assessment game:"  Height="40" Width="100" FontWeight="Normal"/>
+                                        </Label>
+                                        <Button x:Name="buttonWristSpeedGame" Content="Start" Width="80" Height="30"  ToolTipService.ShowDuration="60000" ToolTip = "Goal: &#x0a; to measure the number of full wrist extensions the player can achieve in 10 seconds. &#x0a;To play: &#x0a; Move the Falcon's handle up and down consecutively as many times as possible.&#x0a;&#x0a;Click to launch the game" Click="buttonWristSpeedGame_Click" Margin="10,0,0,0"/>
+                                        <!--Label x:Name="SustainedTestGameLabel" VerticalAlignment="Top" HorizontalAlignment="Left" Background="White">
+                                    <AccessText TextWrapping="Wrap" Text="Sustained wrist assessment game:"  Height="40" Width="100" FontWeight="Normal"/>
+                                </>
+                                <Button x:Name="buttonSustainWristGame" Content="Start" Width="80" Height="30"  ToolTip="Click to launch the game" Margin="10,0,0,0" Click="buttonSustainWristGame_Click"/-->
+                                    </WrapPanel>
+                                </GroupBox>
+                            </WrapPanel>
+                        </WrapPanel>
+                    </GroupBox>
+                </StackPanel>
+            </TabItem>
+            <TabItem x:Name="elbowShoulderTab" Header="Elbow/Shoulder Activities" IsEnabled="False" Width="150">
+                <StackPanel Orientation="Horizontal">
+                    <GroupBox x:Name="elbowShoulderSettingsGroupBox" Header="Elbow/shoulder Extension Settings" VerticalAlignment="Top" Width="420" Background="#FFF0F0F0" >
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                            <WrapPanel>
+                                <Label x:Name="resistanceLabel" Width="110" VerticalAlignment="Center" Content="Falcon's resistance:"/>
+                            </WrapPanel>
+                            <WrapPanel Orientation="Horizontal" Width="150">
+                                <TextBox x:Name="movingResistanceTextBox" Width="40" TextAlignment="Right" Height="20" Text="500" KeyDown="movingResistanceLabel_KeyDown"/>
+                                <Label x:Name="resistanceGramsLabel" Width="50" Content="grams"/>
+                                <Button x:Name="updateResistanceButton" Content="Update" Width="60" Height="30" Click="updateResistanceButton_Click"/>
+                            </WrapPanel>
+                            <WrapPanel Orientation="Horizontal">
+                                <Label x:Name="label0gramsResistance" Width="30" Content="0 g" Margin="20,0,0,0"/>
+                                <Slider x:Name="moveResistanceSlider" Width="300" ValueChanged="slider_ValueChanged" Maximum="1000" Value="500" LargeChange="10" SmallChange="1" IsTabStop="False" />
+                                <Label x:Name="label000gramsResistance" Width="50" Content="1,000 g"/>
+                                <Button x:Name="easyResistanceButton" Content="Easy" Width="60" Height="30" Click="easyResistanceButton_Click" Margin="80,0,0,0"/>
+                                <Button x:Name="mediumResistanceButton" Content="Medium" Width="60" Height="30" Margin="30,0,30,0" Click="mediumResistanceButton_Click"/>
+                                <Button x:Name="hardResistanceButton" Content="Hard" Width="60" Height="30" Click="hardResistanceButton_Click" Margin="5,0,0,0"/>
+                            </WrapPanel>
+                            <Separator Width="370" Height="50"/>
+                            <WrapPanel>
+                                <Label x:Name="labelMoveThreshold" Content="Range of elbow/shoulder movement:" Width="210" Height="30" VerticalAlignment="Center"/>
+                                <Button x:Name="setMoveRangeButton" Content="Start measure" Width="85" Height="30" Margin="20,0,0,0" Click="setMoveRangeButton_Click" Background="#FFFFF3C0"/>
+                                <Image x:Name="moveRangeReadyImage" Source="Images/exclamation.png" Width="20" Margin="20,0,0,0"/>
+                            </WrapPanel>
+                            <WrapPanel Width="180" Height="110">
+                                <WrapPanel.Background>
+                                    <ImageBrush ImageSource="Images/FalconBG.png" Stretch="Uniform"/>
+                                </WrapPanel.Background>
+                                <TextBlock x:Name="moveThresholdTextBoxUp" Text="0" Width="60" Margin="70,10,0,0" TextAlignment="Center" Background="White"/>
+                                <TextBlock x:Name="moveThresholdTextBoxLeft" Text="0" Width="60" Margin="10,20,0,0" TextAlignment="Center" Background="White"/>
+                                <TextBlock x:Name="moveThresholdTextBoxRight" Text="0" Width="60" Margin="50,20,0,0" TextAlignment="Center" Background="White"/>
+                                <TextBlock x:Name="moveThresholdTextBoxDown" Text="0" Width="60" Margin="70,20,0,0" TextAlignment="Center" Background="White"/>
+                            </WrapPanel>
+                            <Separator Width="370" Height="40"/>
+                            <WrapPanel>
+                                <Label x:Name="labelTolerancePan" Content="Percentage of maximum extension required to play:" Width="285"/>
+                            </WrapPanel>
+                            <WrapPanel Width="100">
+                                <TextBox x:Name="movementRequiredTextBox" Width="30" Height="20" Text="50" TextAlignment="Right" KeyDown="movementRequiredTextBox_KeyDown" IsEnabled="False"/>
+                                <Label x:Name="movementRequiredPercentageLabel" Width="20" Content="%"/>
+                                <Button x:Name="updatePercentageMovementButton" Content="Update" Width="50" Height="30" Click="updatePercentageMovementButton_Click" IsEnabled="False"/>
+                            </WrapPanel>
+                            <WrapPanel Width="380">
+                                <Label x:Name="minMovementLabel" Content="50%" Width="40"/>
+                                <Slider x:Name="movementRequiredSlider" Width="300" ValueChanged="slider_ValueChanged" Maximum="100" Minimum="50" Height="20" Value="50" LargeChange="10" SmallChange="1" IsTabStop="False" IsEnabled="False" />
+                                <Label x:Name="maxMovementLabel" Content="100%" Width="40"/>
+                            </WrapPanel>
+                            <Separator Width="370" Height="50"/>
+                            <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+                                <Button x:Name="SaveElbowSettingsButton" Width="100" Height="40" Click="createProfileButton_Click" Content="Save changes" Margin="30,0,0,0"/>
+                                <Image x:Name="saveElbowSettingsImage" Source="Images/null.png" Width="25" Margin="10,0"/>
+                            </WrapPanel>
+                        </StackPanel>
+                    </GroupBox>
+                    <GroupBox x:Name="elbowShoulderGamesGroupBox" Header="Elbow/shoulder activities" HorizontalAlignment="Center" Background="White" Margin="10,0,0,0" IsEnabled="False">
+                        <WrapPanel Orientation="Horizontal" Width="540"  Margin="0,10,0,0" >
+                            <GroupBox x:Name="elbowGamesDetailGroupBox" Header="How to play" HorizontalAlignment="Center" >
+                                <WrapPanel Margin="0,20,0,0" Orientation="Vertical">
+                                    <Image x:Name="falconUsageImage3" Source="Images/ElbowFalconExercise.jpg" Width="240"/>
+                                    <Label x:Name="movingGamesDescriptionLabel" VerticalAlignment="Top" Width="240" Height="100">
+                                        <AccessText x:Name="elbowGamesInstructions" TextWrapping="Wrap" Text="For all these games, move the Falcon's handle Up, Down, Left, Right to move in the desired direction."/>
+                                    </Label>
+                                </WrapPanel>
+                            </GroupBox>
+                            <WrapPanel Margin="10,0,0,0" Orientation="Vertical" VerticalAlignment="Top" Width="260">
+                                <GroupBox x:Name="elbowShoulderGamesGroupBoxList" Header="Games" HorizontalAlignment="Center">
+                                    <WrapPanel  Margin="0,10,0,0">
+                                        <Image x:Name="imageA" Height="44" Source="Images/Heroes of the Loot.png"/>
+                                        <Button x:Name="buttonHeroes" Content="Heroes of the Loot" Width="170" Height="40" VerticalContentAlignment="Center" Click="desktopGame_Click" ToolTipService.ShowDuration="60000" ToolTip = "Goal: &#x0a; to navigate a dungeon collecting as many treasures as possible while keeping monsters at bay.&#x0a; Some doors in the dungeon require a key that can be found in other rooms of the dungeon. &#x0a;To play: &#x0a; Move the Falcon's handle up, down, left or right to navigate the dungeon with the character.&#x0a; And press and hold the red button to attack surrounding monsters without a need to aim at them.&#x0a;&#x0a;Click to launch the game"/>
+                                        <Image Height="44"  Width="30" Source="Images/Button.png" ToolTip="This game uses the red button"/>
+                                        <Image x:Name="imageB" Height="44" Source="Images/Save the Day.png"/>
+                                        <Button x:Name="buttonSaveTheDay" Content="Save the Day" Width="170" Height="40" VerticalContentAlignment="Center"  Click="desktopGame_Click" ToolTipService.ShowDuration="60000" ToolTip = "Goal: &#x0a; to save as many people from the disaster zone as possible. &#x0a;To play: &#x0a; Move the Falcon's handle up, down, left or right to move the helicopter in the desired direction.&#x0a; Touch the characters calling for help with the helicopter to rescue them. &#x0a; Once you have loaded 10 passengers, unload them in one of the safe platforms.&#x0a; Position the helicopter in front of a fire and press and hold the red button to throw water and turn it off.&#x0a;&#x0a;Click to launch the game"/>
+                                        <Image Height="44"  Width="30" Source="Images/Button.png" ToolTip="This game uses the red button"/>
+                                        <Image x:Name="imageC" Height="44" Source="Images/Bird Brawl.png"/>
+                                        <Button x:Name="buttonBirdBrawl" Content="Bird Brawl" Width="170" Height="40" VerticalContentAlignment="Center"  Click="desktopGame_Click" ToolTipService.ShowDuration="60000" ToolTip = "Goal: &#x0a; to gather as many eggs as possible. &#x0a;To play: &#x0a; Move the Falcon's handle up, down, left or right to move the character in the desired direction.&#x0a;Press and hold the red button to attack enemies in front of the character and find hidden eggs.&#x0a;&#x0a;Click to launch the game"/>
+                                        <Image Height="44"  Width="30" Source="Images/Button.png" ToolTip="This game uses the red button"/>
+                                        <Image x:Name="image4" Height="44" Source="Images/Pacman.png"/>
+                                        <Button x:Name="buttonPacman" Content="Pacman" Width="170" Height="40" VerticalContentAlignment="Center"  Click="desktopGame_Click" ToolTipService.ShowDuration="60000" ToolTip = "Goal: &#x0a; to clear up as many levels as possible. &#x0a;To play: &#x0a; Move the Falcon's handle up, down, left or right to move the character in the desired direction,&#x0a;running away from the ghosts and eating all the dots in the level.&#x0a; Eat the big dots to make the ghost edible for a short time.&#x0a;&#x0a;Click to launch the game"/>
+                                        <Image x:Name="image2" Height="44" Source="Images/Looney Tunes Dash.png"/>
+                                        <Button x:Name="buttonLooneyTunes" Content="Looney Tunes Dash" Width="170" Height="40" VerticalContentAlignment="Center" ToolTipService.ShowDuration="60000" ToolTip = "Goal: &#x0a; to escape from Angry Sam and get home avoiding obstacles in the track. &#x0a; To play: &#x0a; Move the Falcon's handle left or right to change lanes, up to jump a hole or an obstacle, and down to slide down and avoid being hit on the head.&#x0a;&#x0a;Click to launch the game" Click="blueStacksGame_Click"/>
+                                    </WrapPanel>
+                                </GroupBox>
+                            </WrapPanel>
+                        </WrapPanel>
+                    </GroupBox>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </StackPanel>
+</Window>
